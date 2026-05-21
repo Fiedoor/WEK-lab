@@ -33,6 +33,7 @@ n = p * q
 e to wartość z przedziału (1, Φ (n) ) względnie pierwsza z Φ (n)
 
 e * d ≡ 1 mod Φ(n)
+
 Wartości publiczne: (n,e)
 
 Wartości prywatne: (d)
