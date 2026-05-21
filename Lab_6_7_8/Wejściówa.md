@@ -42,11 +42,7 @@ ECB - każdy blok jest szyfrowany niezależnie
 
     Zalety: 
 
-- 
-
     Wady:
-
-- 
 
 CBC (cipher blok chaining) - każdy blok przed szyfrowaniem jest XOR'owany z szyfrogramem poprzedniego (dla pierwszego wykorzystujemy wektor inicjalizujący)
 
