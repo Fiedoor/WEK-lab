@@ -6,7 +6,7 @@ Nadawca (ma n,e,d) :
 
 1.   h = H ( m )
 
-2.    s = h^d mod n
+2. s = h^d mod n
 
 3. Wysyła klucze publiczne, s i m
 
@@ -26,7 +26,7 @@ Nadawca (ma p,g,x) generuje k:
 
 1. h = H(m)
 
-2. r = g^k mod n
+2. r = g^k mod p
 
 3. s = ( h - x * r) * k^-1 mod p-1
 
@@ -65,5 +65,3 @@ Odbiorca ma p,q,g, y, dostaje r,s,m
 6. v = ((g^u1 * y^u2) mod p) mod q
 
 7. jeśli v = r akceptuje podpis
-
-
